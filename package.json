@@ -1,6 +1,6 @@
 {
   "name": "react-virtual-scroll-renderer",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "virtual scroll for react",
   "repository": "git@github.com:Woomin-Jeon/react-virtual-scroll-renderer.git",
   "homepage": "https://github.com/Woomin-Jeon/react-virtual-scroll-renderer",
