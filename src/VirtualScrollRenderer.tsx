@@ -64,7 +64,7 @@ const VirtualScrollRenderer = <T extends { id: string }>({
       const virtualScrollRendererHeight = virtualScrollRendererRef.current?.getBoundingClientRect().height
       if (virtualScrollRendererHeight !== virtualItemTotalHeight) {
         console.error(
-          `All elements in the <VirtualScrollRenderer> should be wrapped in <VirtualScrollItem>.\nIf is is Wrapped well in <VirtualScrollItem>, Check the element "margin"(margin is not calculated by height).\nVirtualScrollRenderer height: ${virtualScrollRendererHeight}, VirtualScrollItems total height: ${virtualItemTotalHeight}`
+          `All elements in the <VirtualScrollRenderer> should be wrapped in <VirtualScrollItem>.\nIf is is Wrapped well in <VirtualScrollItem>, Check the element "margin"(margin may not be calculated by height).\nVirtualScrollRenderer height: ${virtualScrollRendererHeight}, VirtualScrollItems total height: ${virtualItemTotalHeight}`
         )
       }
     })
