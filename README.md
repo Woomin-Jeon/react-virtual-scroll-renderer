@@ -26,9 +26,9 @@ const ItemList: React.FC = ({ scrollElement, itemList }) => {
         <ul>
           {itemList.map((item) => 
             <li key={item.data.id}>
-              <VirtualScrollItem item={item}>
-                <Item item={item} />
-              </VirtualScrollItem>
+              <VirtualScrollItem item={item}> // virtual scrolling target components 
+                <Item item={item} />          // (in this case <Item>)
+              </VirtualScrollItem>            // should be wrapped with <VirtualScrollItem>
             </li>
           )}
         </ul>
