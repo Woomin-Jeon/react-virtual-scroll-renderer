@@ -2,8 +2,8 @@
 
 The virtual scroll for React.  
 
-`react-virtual-scroll-renderer` does not force the heights of the elements to be fixed. In other words, rendering elements may have various heights.  
-Also, `react-virtual-scroll-renderer` maintains virtual scrolling without problems for element deletion or element height change due to element data change.
+The heights of elements need not be fixed in `react-virtual-scroll-renderer`. In other words, rendering elements may have various heights.  
+Also, `react-virtual-scroll-renderer` works well without any problems with deleting element or changing height due to data changes.
 
 ## Install
 
